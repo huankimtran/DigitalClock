@@ -1,0 +1,924 @@
+(PCB "C:/Documents and Settings/XPPRESP3/My Documents/eagle/digitalclock/mach.brd"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad CadSoft)
+    (host_version 'EAGLE Version 5.10.0 Copyright (c) 1988-2010 CadSoft')
+  )
+  (resolution mm 10000)
+  (unit mm)
+  (structure
+    (layer "1#Top"  (type signal))
+    (layer "16#Bottom"  (type signal))
+    (boundary 
+      (rect pcb  0.000000 0.000000 163.500000 78.000000)
+    )
+    (boundary (path signal 0 0.000000 0.000000 136.000000 0.000000))
+    (boundary (path signal 0 136.000000 0.000000 136.000000 78.000000))
+    (boundary (path signal 0 136.000000 78.000000 0.000000 78.000000))
+    (boundary (path signal 0 0.000000 78.000000 0.000000 0.000000))
+    (boundary (path signal 0 136.000000 0.000000 163.500000 0.000000))
+    (via
+       "Round1$0.609500"
+    )
+    (rule (width 0.254000)(clearance 0.203200))
+    (control
+      (via_at_smd on)
+    )
+  )
+  (placement
+    (place_control (flip_style rotate_first))
+    (component "C5B3$capacitor-wima" 
+      (place "C1" 36.210000 16.260000 Front 180.000000)
+    )
+    (component "C5B3$capacitor-wima" 
+      (place "C2" 36.170000 10.740000 Front 0.000000)
+    )
+    (component "E2-5$rcl" 
+      (place "C3" 75.010000 47.090000 Front 270.000000)
+    )
+    (component "DO-1N4148$microbuilder" 
+      (place "D1" 23.520000 5.740000 Front 180.000000)
+    )
+    (component "DO-1N4148$microbuilder" 
+      (place "D2" 23.440000 3.160000 Front 180.000000)
+    )
+    (component "DO-1N4148$microbuilder" 
+      (place "D3" 34.870000 3.160000 Front 0.000000)
+    )
+    (component "DO-1N4148$microbuilder" 
+      (place "D5" 115.920000 11.780000 Front 270.000000)
+    )
+    (component "CR2032H$battery" 
+      (place "G1" 123.840000 50.140000 Front 90.000000)
+    )
+    (component "TO220H$linear" 
+      (place "IC1" 122.300000 30.090000 Front 90.000000)
+    )
+    (component "DIL40$atmel" 
+      (place "IC2" 74.630000 11.980000 Front 180.000000)
+    )
+    (component "DIL08$ic-package" 
+      (place "IC4" 110.450000 62.730000 Front 0.000000)
+    )
+    (component "SPC4077$con-jack" 
+      (place "J1" 125.060000 7.520000 Front 180.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L1" 118.640000 66.950000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L2" 122.640000 67.250000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L3" 23.550000 17.060000 Front 0.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L4" 41.660000 68.950000 Front 270.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L5" 38.960000 68.950000 Front 270.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L6" 36.160000 69.050000 Front 270.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L7" 33.540000 69.050000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L8" 30.960000 69.150000 Front 270.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L9" 28.140000 69.250000 Front 270.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L10" 25.260000 69.350000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L11" 22.560000 69.350000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L12" 39.160000 55.150000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L13" 36.360000 55.250000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L14" 33.760000 55.250000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L15" 31.040000 55.250000 Front 270.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L16" 41.960000 55.150000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L17" 28.320000 55.250000 Front 270.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L18" 25.620000 55.150000 Front 270.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L19" 22.620000 55.150000 Front 270.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L20" 38.380000 40.050000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L21" 35.680000 40.050000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L22" 32.780000 40.050000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L23" 30.180000 40.050000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L24" 24.880000 40.250000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L25" 27.400000 40.150000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L26" 22.200000 40.250000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L27" 19.400000 40.250000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L28" 38.400000 25.250000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L29" 35.600000 25.250000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L30" 32.700000 25.250000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L31" 29.900000 25.150000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L32" 26.900000 25.150000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L33" 24.020000 25.250000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L34" 21.320000 25.250000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L35" 18.720000 25.250000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L36" 9.750000 19.680000 Front 0.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L37" 10.150000 22.680000 Front 0.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L38" 23.650000 14.180000 Front 0.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L39" 10.250000 54.320000 Front 180.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L40" 23.550000 11.320000 Front 180.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L41" 126.450000 18.940000 Front 180.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L42" 9.750000 38.240000 Front 180.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L43" 19.160000 55.450000 Front 270.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L44" 19.240000 69.850000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L45" 10.150000 59.260000 Front 0.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L46" 9.450000 34.760000 Front 0.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L47" 23.750000 8.460000 Front 0.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L48" 111.240000 35.050000 Front 90.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L49" 110.950000 4.460000 Front 180.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L50" 10.050000 56.740000 Front 0.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L51" 9.750000 74.460000 Front 180.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L52" 9.750000 3.260000 Front 180.000000)
+    )
+    (component "0207/10$resistor" 
+      (place "L53" 126.350000 22.160000 Front 180.000000)
+    )
+    (component "LED5MM$led" 
+      (place "LED1" 120.100000 14.900000 Front 180.000000)
+    )
+    (component "LED5MM$led" 
+      (place "LED5" 76.610000 37.670000 Front 90.000000)
+    )
+    (component "LED5MM$led" 
+      (place "LED6" 76.720000 28.910000 Front 90.000000)
+    )
+    (component "LED5MM$led" 
+      (place "LED7" 48.280000 47.290000 Front 270.000000)
+    )
+    (component "LED5MM$led" 
+      (place "LED8" 65.280000 46.990000 Front 270.000000)
+    )
+    (component "LED5MM$led" 
+      (place "LED9" 87.280000 46.690000 Front 270.000000)
+    )
+    (component "LED5MM$led" 
+      (place "LED10" 101.390000 46.630000 Front 270.000000)
+    )
+    (component "B3F-10XX$switch-omron" 
+      (place "S1" 9.880000 48.690000 Back 0.000000)
+    )
+    (component "B3F-10XX$switch-omron" 
+      (place "S2" 9.690000 28.690000 Front 0.000000)
+    )
+    (component "B3F-10XX$switch-omron" 
+      (place "S3" 10.260000 8.690000 Front 0.000000)
+    )
+    (component "B3F-10XX$switch-omron" 
+      (place "S5" 9.600000 69.310000 Front 180.000000)
+    )
+    (component "BMT1205XH7.5$buzzer" 
+      (place "SG1" 108.020000 12.050000 Front 270.000000)
+    )
+    (component "7SEG13X19$7seg13x19" 
+      (place "U$1" 58.500000 42.320000 Front 0.000000)
+    )
+    (component "7SEG13X19$7seg13x19" 
+      (place "U$2" 81.460000 42.420000 Front 0.000000)
+    )
+    (component "7SEG13X19$7seg13x19" 
+      (place "U$3" 96.020000 42.320000 Front 0.000000)
+    )
+    (component "7SEG13X19$7seg13x19" 
+      (place "U$4" 42.780000 42.320000 Front 0.000000)
+    )
+    (component "XTAL12MHZ$xtal12mhz" 
+      (place "U$5" 46.050000 17.200000 Front 270.000000)
+    )
+    (component "XTAL32KHZMINI$Xtal32khzmini" 
+      (place "U$6" 106.290000 44.170000 Back 180.000000)
+    )
+    (component "PUSKLOCKBUTTON$pushlockbutton" 
+      (place "U$7" 126.570000 65.520000 Front 90.000000)
+    )
+    (component "C9014$C9014" 
+      (place "U$8" 116.300000 18.200000 Front 90.000000)
+    )
+    (component "C9014$C9014" 
+      (place "U$9" 10.000000 45.000000 Front 270.000000)
+    )
+    (component "C9014$C9014" 
+      (place "U$10" 12.100000 65.400000 Front 270.000000)
+    )
+    (component "C9014$C9014" 
+      (place "U$11" 11.000000 17.000000 Front 270.000000)
+    )
+    (component "C9014$C9014" 
+      (place "U$12" 116.000000 41.000000 Front 270.000000)
+    )
+    (component "C9014$C9014" 
+      (place "U$13" 38.000000 8.000000 Front 180.000000)
+    )
+    (component "DIL16$74ttl-din" 
+      (place "V1" 52.530000 61.630000 Front 270.000000)
+    )
+    (component "DIL16$74ttl-din" 
+      (place "V2" 67.530000 61.990000 Front 270.000000)
+    )
+    (component "DIL16$74ttl-din" 
+      (place "V3" 81.530000 61.850000 Front 270.000000)
+    )
+    (component "DIL16$74ttl-din" 
+      (place "V4" 95.030000 61.710000 Front 270.000000)
+    )
+  )
+  (library
+    (image "7SEG13X19$7seg13x19"
+      (pin "Square1" "P$1" 11.500000 -2.000000)
+      (pin "Square1" "P$2" 9.000000 -2.000000)
+      (pin "Square1" "P$3" 6.500000 -2.000000)
+      (pin "Square1" "P$4" 4.000000 -2.000000)
+      (pin "Square1" "P$5" 1.500000 -2.000000)
+      (pin "Square1" "P$6" 11.500000 -17.000000)
+      (pin "Square1" "P$7" 9.000000 -17.000000)
+      (pin "Square1" "P$8" 6.500000 -17.000000)
+      (pin "Square1" "P$10" 4.000000 -17.000000)
+      (pin "Square1" "P$12" 1.500000 -17.000000)
+    )
+    (image "DIL16$74ttl-din"
+      (pin "Oblong1" "1" -8.890000 -3.810000)
+      (pin "Oblong1" "2" -6.350000 -3.810000)
+      (pin "Oblong1" "3" -3.810000 -3.810000)
+      (pin "Oblong1" "4" -1.270000 -3.810000)
+      (pin "Oblong1" "5" 1.270000 -3.810000)
+      (pin "Oblong1" "6" 3.810000 -3.810000)
+      (pin "Oblong1" "7" 6.350000 -3.810000)
+      (pin "Oblong1" "8" 8.890000 -3.810000)
+      (pin "Oblong1" "9" 8.890000 3.810000)
+      (pin "Oblong1" "10" 6.350000 3.810000)
+      (pin "Oblong1" "11" 3.810000 3.810000)
+      (pin "Oblong1" "12" 1.270000 3.810000)
+      (pin "Oblong1" "13" -1.270000 3.810000)
+      (pin "Oblong1" "14" -3.810000 3.810000)
+      (pin "Oblong1" "15" -6.350000 3.810000)
+      (pin "Oblong1" "16" -8.890000 3.810000)
+    )
+    (image "C9014$C9014"
+      (pin "Square1" "P$1" 1.000000 1.000000)
+      (pin "Square1" "P$2" 2.250000 1.000000)
+      (pin "Square1" "P$3" 3.500000 1.000000)
+    )
+    (image "XTAL32KHZMINI$Xtal32khzmini"
+      (pin "Square1" "P$1" 0.500000 -12.000000)
+      (pin "Square1" "P$2" 2.500000 -12.000000)
+    )
+    (image "DIL40$atmel"
+      (pin "Oblong1" "1" -24.130000 -7.620000)
+      (pin "Oblong1" "2" -21.590000 -7.620000)
+      (pin "Oblong1" "3" -19.050000 -7.620000)
+      (pin "Oblong1" "4" -16.510000 -7.620000)
+      (pin "Oblong1" "5" -13.970000 -7.620000)
+      (pin "Oblong1" "6" -11.430000 -7.620000)
+      (pin "Oblong1" "7" -8.890000 -7.620000)
+      (pin "Oblong1" "8" -6.350000 -7.620000)
+      (pin "Oblong1" "9" -3.810000 -7.620000)
+      (pin "Oblong1" "10" -1.270000 -7.620000)
+      (pin "Oblong1" "11" 1.270000 -7.620000)
+      (pin "Oblong1" "12" 3.810000 -7.620000)
+      (pin "Oblong1" "13" 6.350000 -7.620000)
+      (pin "Oblong1" "14" 8.890000 -7.620000)
+      (pin "Oblong1" "15" 11.430000 -7.620000)
+      (pin "Oblong1" "16" 13.970000 -7.620000)
+      (pin "Oblong1" "17" 16.510000 -7.620000)
+      (pin "Oblong1" "18" 19.050000 -7.620000)
+      (pin "Oblong1" "19" 21.590000 -7.620000)
+      (pin "Oblong1" "20" 24.130000 -7.620000)
+      (pin "Oblong1" "21" 24.130000 7.620000)
+      (pin "Oblong1" "22" 21.590000 7.620000)
+      (pin "Oblong1" "23" 19.050000 7.620000)
+      (pin "Oblong1" "24" 16.510000 7.620000)
+      (pin "Oblong1" "25" 13.970000 7.620000)
+      (pin "Oblong1" "26" 11.430000 7.620000)
+      (pin "Oblong1" "27" 8.890000 7.620000)
+      (pin "Oblong1" "28" 6.350000 7.620000)
+      (pin "Oblong1" "29" 3.810000 7.620000)
+      (pin "Oblong1" "30" 1.270000 7.620000)
+      (pin "Oblong1" "31" -1.270000 7.620000)
+      (pin "Oblong1" "32" -3.810000 7.620000)
+      (pin "Oblong1" "33" -6.350000 7.620000)
+      (pin "Oblong1" "34" -8.890000 7.620000)
+      (pin "Oblong1" "35" -11.430000 7.620000)
+      (pin "Oblong1" "36" -13.970000 7.620000)
+      (pin "Oblong1" "37" -16.510000 7.620000)
+      (pin "Oblong1" "38" -19.050000 7.620000)
+      (pin "Oblong1" "39" -21.590000 7.620000)
+      (pin "Oblong1" "40" -24.130000 7.620000)
+    )
+    (image "CR2032H$battery"
+      (pin "Octagon1" "+" 5.080000 10.795000)
+      (pin "Octagon1" "+@1" -5.080000 10.795000)
+      (pin "Octagon1" "-" 0.000000 -6.985000)
+    )
+    (image "BMT1205XH7.5$buzzer"
+      (outline(circ "1#Top" 12.000000 0.000000 0.000000))
+      (outline(circ "1#Top" 2.000000 0.000000 0.000000))
+      (outline(circ "1#Top" 2.794000 3.820000 0.012000))
+      (pin "Round2" "+" 3.800000 0.000000)
+      (pin "Round2" "-" -3.800000 0.000000)
+    )
+    (image "C5B3$capacitor-wima"
+      (pin "Octagon2" "1" -2.540000 0.000000)
+      (pin "Octagon2" "2" 2.540000 0.000000)
+    )
+    (image "SPC4077$con-jack"
+      (pin "Oblong2" "1" -3.000000 0.000000)
+      (pin "Oblong3" "2" 0.000000 -4.800000)
+      (pin "Oblong4" "3" 3.000000 0.000000)
+    )
+    (image "DIL08$ic-package"
+      (pin "Oblong1" "1" -3.810000 -3.810000)
+      (pin "Oblong1" "2" -1.270000 -3.810000)
+      (pin "Oblong1" "3" 1.270000 -3.810000)
+      (pin "Oblong1" "4" 3.810000 -3.810000)
+      (pin "Oblong1" "5" 3.810000 3.810000)
+      (pin "Oblong1" "6" 1.270000 3.810000)
+      (pin "Oblong1" "7" -1.270000 3.810000)
+      (pin "Oblong1" "8" -3.810000 3.810000)
+    )
+    (image "LED5MM$led"
+      (outline(circ "1#Top" 5.080000 0.000000 0.000000))
+      (pin "Octagon3" "A" -1.270000 0.000000)
+      (pin "Octagon3" "K" 1.270000 0.000000)
+    )
+    (image "TO220H$linear"
+      (outline(circ "1#Top" 3.606800 0.000000 4.826000))
+      (outline(rect "1#Top" 2.159000 -11.049000 2.921000 -10.414000))
+      (outline(rect "1#Top" -0.381000 -11.049000 0.381000 -10.414000))
+      (outline(rect "1#Top" -2.921000 -11.049000 -2.159000 -10.414000))
+      (outline(rect "1#Top" -3.175000 -10.414000 -1.905000 -7.620000))
+      (outline(rect "1#Top" -0.635000 -10.414000 0.635000 -7.620000))
+      (outline(rect "1#Top" 1.905000 -10.414000 3.175000 -7.620000))
+      (wire_keepout(circ "16#Bottom" 5.080000 0.000000 4.826000))
+      (via_keepout(circ signal 5.080000 0.000000 4.826000))
+      (keepout (circ signal 3.505200 0.000000 4.826000))
+      (pin "Oblong5" "1" -2.540000 -10.160000)
+      (pin "Oblong5" "2" 0.000000 -10.160000)
+      (pin "Oblong5" "3" 2.540000 -10.160000)
+    )
+    (image "DO-1N4148$microbuilder"
+      (pin "Round3" "A" -3.810000 0.000000)
+      (pin "Round3" "C" 3.810000 0.000000)
+    )
+    (image "PUSKLOCKBUTTON$pushlockbutton"
+      (pin "Square1" "P$1" 5.040000 0.000000)
+      (pin "Square1" "P$2" 3.040000 0.000000)
+      (pin "Square1" "P$3" 1.040000 0.000000)
+      (pin "Square1" "P$4" 1.040000 -5.000000)
+      (pin "Square1" "P$5" 3.040000 -5.000000)
+      (pin "Square1" "P$6" 5.040000 -5.000000)
+    )
+    (image "E2-5$rcl"
+      (outline(circ "1#Top" 5.080000 0.000000 0.000000))
+      (pin "Round4" "+" -1.016000 0.000000)
+      (pin "Octagon3" "-" 1.016000 0.000000)
+    )
+    (image "0207/10$resistor"
+      (outline(rect "1#Top" 3.175000 -0.304800 4.038600 0.304800))
+      (outline(rect "1#Top" -4.038600 -0.304800 -3.175000 0.304800))
+      (pin "Octagon3" "1" -5.080000 0.000000)
+      (pin "Octagon3" "2" 5.080000 0.000000)
+    )
+    (image "B3F-10XX$switch-omron"
+      (outline(circ "1#Top" 3.556000 0.000000 0.000000))
+      (outline(circ "1#Top" 0.508000 0.000000 0.000000))
+      (pin "Oblong6" "1" -3.251200 2.260600)
+      (pin "Oblong6" "2" 3.251200 2.260600)
+      (pin "Oblong6" "3" -3.251200 -2.260600)
+      (pin "Oblong6" "4" 3.251200 -2.260600)
+    )
+    (image "XTAL12MHZ$xtal12mhz"
+      (pin "Square2" "P$1" 9.500000 -2.500000)
+      (pin "Square2" "P$2" 0.500000 -2.500000)
+    )
+    (padstack "ViaDefault$0.609600"
+      (shape (circle signal 1.016000 0 0))
+    )
+    (padstack "Round1$0.609500" 
+      (shape (circle "1#Top" 1.016000 0 0))
+      (shape (circle "16#Bottom" 1.016000 0 0))
+      (attach off)
+    )
+    (padstack "Square1" 
+      (shape (rect signal -0.654000 -0.654000 0.654000 0.654000))
+      (attach off)
+    )
+    (padstack "Oblong1" 
+      (shape (path signal 1.320800 0.000000 -0.660400 0.000000 0.660400))
+      (attach off)
+    )
+    (padstack "Octagon1" 
+      (shape (polygon "1#Top" 0 1.270000 0.526051 0.526051 1.270000 -0.526051 1.270000 -1.270000 0.526051 -1.270000 -0.526051 -0.526051 -1.270000 0.526051 -1.270000 1.270000 -0.526051 ))
+      (shape (polygon "16#Bottom" 0 1.270000 0.526051 0.526051 1.270000 -0.526051 1.270000 -1.270000 0.526051 -1.270000 -0.526051 -0.526051 -1.270000 0.526051 -1.270000 1.270000 -0.526051 ))
+      (attach off)
+    )
+    (padstack "Round2" 
+      (shape (circle signal 1.500000 0 0))
+      (attach off)
+    )
+    (padstack "Octagon2" 
+      (shape (polygon "1#Top" 0 0.800100 0.331412 0.331412 0.800100 -0.331412 0.800100 -0.800100 0.331412 -0.800100 -0.331412 -0.331412 -0.800100 0.331412 -0.800100 0.800100 -0.331412 ))
+      (shape (polygon "16#Bottom" 0 0.800100 0.331412 0.331412 0.800100 -0.331412 0.800100 -0.800100 0.331412 -0.800100 -0.331412 -0.331412 -0.800100 0.331412 -0.800100 0.800100 -0.331412 ))
+      (attach off)
+    )
+    (padstack "Oblong2" 
+      (shape (path signal 2.184400 0.000000 -1.092200 0.000000 1.092200))
+      (attach off)
+    )
+    (padstack "Oblong3" 
+      (shape (path signal 2.184400 -1.092200 0.000000 1.092200 0.000000))
+      (attach off)
+    )
+    (padstack "Oblong4" 
+      (shape (path signal 2.184400 0.000000 -1.092200 0.000000 1.092200))
+      (attach off)
+    )
+    (padstack "Octagon3" 
+      (shape (polygon "1#Top" 0 0.660400 0.273547 0.273547 0.660400 -0.273547 0.660400 -0.660400 0.273547 -0.660400 -0.273547 -0.273547 -0.660400 0.273547 -0.660400 0.660400 -0.273547 ))
+      (shape (polygon "16#Bottom" 0 0.660400 0.273547 0.273547 0.660400 -0.273547 0.660400 -0.660400 0.273547 -0.660400 -0.273547 -0.273547 -0.660400 0.273547 -0.660400 0.660400 -0.273547 ))
+      (attach off)
+    )
+    (padstack "Oblong5" 
+      (shape (path signal 1.676400 0.000000 -0.838200 0.000000 0.838200))
+      (attach off)
+    )
+    (padstack "Round3" 
+      (shape (circle signal 1.408000 0 0))
+      (attach off)
+    )
+    (padstack "Round4" 
+      (shape (circle signal 1.320800 0 0))
+      (attach off)
+    )
+    (padstack "Oblong6" 
+      (shape (path signal 1.524000 -0.762000 0.000000 0.762000 0.000000))
+      (attach off)
+    )
+    (padstack "Square2" 
+      (shape (rect signal -0.654000 -0.654000 0.654000 0.654000))
+      (attach off)
+    )
+  )
+  (network
+    (net "N$1"
+      (pins  "IC2"-"11" "IC4"-"5" "L1"-"2")
+    )
+    (net "N$2"
+      (pins  "IC2"-"10" "IC4"-"6" "L2"-"2")
+    )
+    (net "N$3"
+      (pins  "IC4"-"1" "U$6"-"P$1")
+    )
+    (net "N$4"
+      (pins  "C3"-"+" "IC2"-"9" "L3"-"2")
+    )
+    (net "N$5"
+      (pins  "IC4"-"3" "G1"-"+")
+    )
+    (net "N$6"
+      (pins  "IC4"-"2" "U$6"-"P$2")
+    )
+    (net "N$7"
+      (pins  "IC2"-"19" "U$5"-"P$1" "C2"-"2")
+    )
+    (net "N$8"
+      (pins  "IC2"-"18" "U$5"-"P$2" "C1"-"1")
+    )
+    (net "N$9"
+      (pins  "L50"-"1" "S1"-"1" "IC2"-"39" "D1"-"C")
+    )
+    (net "N$10"
+      (pins  "L38"-"2" "IC2"-"25")
+    )
+    (net "N$11"
+      (pins  "IC2"-"1" "V3"-"11")
+    )
+    (net "N$12"
+      (pins  "V3"-"14" "IC2"-"2")
+    )
+    (net "N$13"
+      (pins  "V1"-"11" "IC2"-"3")
+    )
+    (net "N$14"
+      (pins  "V1"-"14" "IC2"-"4" "L39"-"1" "L42"-"1" "L43"-"1" "L44"-"1")
+    )
+    (net "N$15"
+      (pins  "V2"-"11" "IC2"-"5")
+    )
+    (net "N$16"
+      (pins  "L8"-"2" "U$4"-"P$2")
+    )
+    (net "N$17"
+      (pins  "IC2"-"6" "V2"-"14")
+    )
+    (net "N$18"
+      (pins  "IC2"-"7" "V4"-"11")
+    )
+    (net "N$19"
+      (pins  "IC2"-"8" "V4"-"14")
+    )
+    (net "N$20"
+      (pins  "V3"-"1" "L4"-"1")
+    )
+    (net "N$21"
+      (pins  "L8"-"1" "V3"-"15")
+    )
+    (net "N$22"
+      (pins  "U$4"-"P$12" "L7"-"2")
+    )
+    (net "N$23"
+      (pins  "V3"-"5" "L9"-"1")
+    )
+    (net "N$24"
+      (pins  "V3"-"6" "L10"-"1")
+    )
+    (net "N$25"
+      (pins  "L4"-"2" "U$4"-"P$1")
+    )
+    (net "N$26"
+      (pins  "V3"-"7" "L11"-"1")
+    )
+    (net "N$27"
+      (pins  "V3"-"3" "L6"-"1")
+    )
+    (net "N$28"
+      (pins  "V3"-"4" "L7"-"1")
+    )
+    (net "N$29"
+      (pins  "V3"-"2" "L5"-"1")
+    )
+    (net "N$30"
+      (pins  "U$4"-"P$7" "L5"-"2")
+    )
+    (net "N$31"
+      (pins  "L6"-"2" "U$4"-"P$10")
+    )
+    (net "N$32"
+      (pins  "U$4"-"P$4" "L9"-"2")
+    )
+    (net "N$33"
+      (pins  "U$4"-"P$5" "L10"-"2")
+    )
+    (net "N$34"
+      (pins  "U$4"-"P$6" "L11"-"2")
+    )
+    (net "N$35"
+      (pins  "L37"-"1" "L38"-"1")
+    )
+    (net "N$36"
+      (pins  "U$1"-"P$12" "L15"-"2")
+    )
+    (net "N$37"
+      (pins  "L19"-"1" "V1"-"7")
+    )
+    (net "N$38"
+      (pins  "L17"-"1" "V1"-"5")
+    )
+    (net "N$39"
+      (pins  "L18"-"1" "V1"-"6")
+    )
+    (net "N$40"
+      (pins  "L14"-"1" "V1"-"3")
+    )
+    (net "N$41"
+      (pins  "L15"-"1" "V1"-"4")
+    )
+    (net "N$42"
+      (pins  "L13"-"1" "V1"-"2")
+    )
+    (net "N$43"
+      (pins  "L12"-"1" "V1"-"1")
+    )
+    (net "N$44"
+      (pins  "V1"-"15" "L16"-"1")
+    )
+    (net "N$45"
+      (pins  "L16"-"2" "U$1"-"P$2")
+    )
+    (net "N$46"
+      (pins  "L12"-"2" "U$1"-"P$1")
+    )
+    (net "N$47"
+      (pins  "U$1"-"P$7" "L13"-"2")
+    )
+    (net "N$48"
+      (pins  "L14"-"2" "U$1"-"P$10")
+    )
+    (net "N$49"
+      (pins  "U$1"-"P$4" "L17"-"2")
+    )
+    (net "N$50"
+      (pins  "U$1"-"P$5" "L18"-"2")
+    )
+    (net "N$51"
+      (pins  "U$1"-"P$6" "L19"-"2")
+    )
+    (net "N$52"
+      (pins  "J1"-"1" "S5"-"1" "U$7"-"P$3")
+    )
+    (net "N$53"
+      (pins  "L37"-"2" "U$13"-"P$2")
+    )
+    (net "N$54"
+      (pins  "U$2"-"P$12" "L23"-"2")
+    )
+    (net "N$55"
+      (pins  "L27"-"1")
+    )
+    (net "N$56"
+      (pins  "L25"-"1")
+    )
+    (net "N$57"
+      (pins  "L26"-"1")
+    )
+    (net "N$58"
+      (pins  "L22"-"1")
+    )
+    (net "N$59"
+      (pins  "L23"-"1")
+    )
+    (net "N$60"
+      (pins  "L21"-"1")
+    )
+    (net "N$61"
+      (pins  "L20"-"1" "V2"-"1")
+    )
+    (net "N$62"
+      (pins  "L24"-"1" "V2"-"15")
+    )
+    (net "N$63"
+      (pins  "L24"-"2" "U$2"-"P$2")
+    )
+    (net "N$64"
+      (pins  "L20"-"2" "U$2"-"P$1")
+    )
+    (net "N$65"
+      (pins  "U$2"-"P$7" "L21"-"2")
+    )
+    (net "N$66"
+      (pins  "L22"-"2" "U$2"-"P$10")
+    )
+    (net "N$67"
+      (pins  "U$2"-"P$4" "L25"-"2")
+    )
+    (net "N$68"
+      (pins  "U$2"-"P$5" "L26"-"2")
+    )
+    (net "N$69"
+      (pins  "U$2"-"P$6" "L27"-"2")
+    )
+    (net "N$70"
+      (pins  "U$3"-"P$12" "L31"-"2")
+    )
+    (net "N$71"
+      (pins  "L35"-"1" "V4"-"7")
+    )
+    (net "N$72"
+      (pins  "L33"-"1" "V4"-"5")
+    )
+    (net "N$73"
+      (pins  "L34"-"1" "V4"-"6")
+    )
+    (net "N$74"
+      (pins  "L30"-"1" "V4"-"3")
+    )
+    (net "N$75"
+      (pins  "L31"-"1" "V4"-"4")
+    )
+    (net "N$76"
+      (pins  "L29"-"1" "V4"-"2")
+    )
+    (net "N$77"
+      (pins  "L28"-"1" "V4"-"1")
+    )
+    (net "N$78"
+      (pins  "V4"-"15" "L32"-"1")
+    )
+    (net "N$79"
+      (pins  "L32"-"2" "U$3"-"P$2")
+    )
+    (net "N$80"
+      (pins  "L28"-"2" "U$3"-"P$1")
+    )
+    (net "N$81"
+      (pins  "U$3"-"P$7" "L29"-"2")
+    )
+    (net "N$82"
+      (pins  "L30"-"2" "U$3"-"P$10")
+    )
+    (net "N$83"
+      (pins  "U$3"-"P$4" "L33"-"2")
+    )
+    (net "N$84"
+      (pins  "U$3"-"P$5" "L34"-"2")
+    )
+    (net "N$85"
+      (pins  "U$3"-"P$6" "L35"-"2")
+    )
+    (net "N$86"
+      (pins  "L36"-"2" "U$13"-"P$3")
+    )
+    (net "N$87"
+      (pins  "U$13"-"P$1" "LED6"-"A")
+    )
+    (net "N$88"
+      (pins  "LED5"-"A" "LED6"-"K")
+    )
+    (net "N$89"
+      (pins  "L40"-"1" "IC2"-"26")
+    )
+    (net "N$90"
+      (pins  "L40"-"2" "U$8"-"P$2")
+    )
+    (net "N$91"
+      (pins  "U$10"-"P$2" "L45"-"1")
+    )
+    (net "N$92"
+      (pins  "L46"-"1" "U$9"-"P$2")
+    )
+    (net "N$93"
+      (pins  "L47"-"1" "U$11"-"P$2")
+    )
+    (net "N$94"
+      (pins  "LED7"-"K" "U$10"-"P$3")
+    )
+    (net "N$95"
+      (pins  "D5"-"A" "SG1"-"-" "U$8"-"P$3")
+    )
+    (net "N$96"
+      (pins  "L52"-"1" "S3"-"1" "IC2"-"37" "D3"-"C")
+    )
+    (net "N$97"
+      (pins  "L48"-"2" "U$12"-"P$2")
+    )
+    (net "N$98"
+      (pins  "U$12"-"P$3" "LED10"-"K")
+    )
+    (net "N$99"
+      (pins  "U$11"-"P$3" "LED9"-"K")
+    )
+    (net "N$100"
+      (pins  "U$11"-"P$1" "L43"-"2")
+    )
+    (net "N$101"
+      (pins  "U$9"-"P$3" "LED8"-"K")
+    )
+    (net "N$102"
+      (pins  "U$9"-"P$1" "L42"-"2")
+    )
+    (net "N$103"
+      (pins  "U$8"-"P$1" "L41"-"2")
+    )
+    (net "N$104"
+      (pins  "U$12"-"P$1" "L44"-"2")
+    )
+    (net "N$105"
+      (pins  "L45"-"2" "IC2"-"13")
+    )
+    (net "N$106"
+      (pins  "L49"-"2" "IC2"-"12" "D2"-"A" "D3"-"A" "D1"-"A")
+    )
+    (net "N$107"
+      (pins  "IC2"-"14" "L46"-"2")
+    )
+    (net "N$108"
+      (pins  "L47"-"2" "IC2"-"15")
+    )
+    (net "N$109"
+      (pins  "IC2"-"16" "L48"-"1")
+    )
+    (net "N$110"
+      (pins  "V3"-"12" "IC2"-"21")
+    )
+    (net "N$111"
+      (pins  "IC2"-"22" "V1"-"12")
+    )
+    (net "N$112"
+      (pins  "V2"-"12" "IC2"-"23")
+    )
+    (net "N$113"
+      (pins  "IC2"-"24" "V4"-"12")
+    )
+    (net "N$114"
+      (pins  "U$2"-"P$8" "U$3"-"P$8" "U$1"-"P$8" "IC4"-"4" "G1"-"-" "C2"-"1" "C1"-"2" "L3"-"1" "IC1"-"2" "U$4"-"P$8" "IC2"-"20" "L41"-"1" "LED5"-"K" "V1"-"13" "V2"-"13" "V4"-"13" "V3"-"13" "S3"-"3" "S2"-"3" "S1"-"3" "V3"-"8" "V1"-"8" "V2"-"8" "V4"-"8" "L53"-"2" "LED1"-"K")
+    )
+    (net "N$115"
+      (pins  "J1"-"3" "L53"-"1")
+    )
+    (net "N$116"
+      (pins  "IC2"-"40" "IC1"-"3" "L2"-"1" "L1"-"1" "IC4"-"8" "L49"-"1" "C3"-"-" "L36"-"1" "V4"-"10" "V2"-"10" "V1"-"10" "V3"-"10" "LED10"-"A" "LED9"-"A" "LED8"-"A" "LED7"-"A" "L52"-"2" "L51"-"2" "L50"-"2" "SG1"-"+" "D5"-"C" "V3"-"16" "V1"-"16" "V2"-"16" "V4"-"16" "IC2"-"31")
+    )
+    (net "N$117"
+      (pins  "IC2"-"38" "L51"-"1" "S2"-"1" "D2"-"C")
+    )
+    (net "N$118"
+      (pins  "J1"-"2" "LED1"-"A")
+    )
+    (net "N$119"
+      (pins  "S5"-"3" "IC1"-"1" "U$7"-"P$2")
+    )
+    (net "N$122"
+      (pins  "U$10"-"P$1" "L39"-"2")
+    )
+    (net "N$123"
+      (pins )
+    )
+    (net "N$124"
+      (pins )
+    )
+  )
+  (wiring
+    (wire
+      (path "16#Bottom" 0.406400 109.500000 101.000000 109.500000 100.500000) 
+      (net "N$124")
+    )
+  )
+)

@@ -1,0 +1,22 @@
+# Writing all output to: C:\Documents and Settings\XPPRESP3\My Documents\eagle\digitalclock\newmach.log
+
+____________________________________________________________________________________________
+ELECTRA DEMO Version  2.9.3
+Design        = C:/Documents and Settings/XPPRESP3/My Documents/eagle/digitalclock/newmach.dsn
+Report Time   = 21:22:25
+Nets          =      120
+Components    =       94
+Connections   =      189
+Vias          =        0
+Routed Length =      0.0 mil
+Signal Layers =        2
+Power Layers  =        0
+Total Pins    =      341
+Completion    =    0.00%
+Unroutes      =      189
+
+____________________________________________________________________________________________
+|     |          |        |        |        |        |        |        |         |         |
+|  #  |   Algo   | Shorts |DRC Errs|Failures|Unwired |  Vias  |  %Red  |  Time   |  Total  |
+|_____|__________|________|________|________|________|________|________|_________|_________|
+|_____|__________|________|________|________|________|________|________|_________|_________|
